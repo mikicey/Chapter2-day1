@@ -259,7 +259,7 @@ section{
     margin-right: 4px;
  }
 
-.project-buttons > button:disabled{
+/* .project-buttons > button:disabled{
     background-color: rgba(123, 123, 123, 0.429);
     cursor:not-allowed;
 }
@@ -288,8 +288,8 @@ section{
 
 .project-buttons > button:disabled:hover::after{
     visibility: visible;
-    opacity: 1;
-}
+    opacity: 1; */
+/* } */
 
 
 
