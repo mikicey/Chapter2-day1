@@ -55,7 +55,7 @@
 
     <!-- Intro  -->
     <section class="intro-section">
-          <div class="container intro">
+          <div class="container d-flex intro ">
                  <!-- Main -->
                  <div class="intro-main">
 
@@ -80,24 +80,24 @@
             Contact 
             </a>
 
-           <div class="download-btn">
+           <div class="d-inline-flex align-items-center download-btn">
             download CV <img src="./assets/downloads.png">
            </div>
     </div>
 
     <!-- Social -->
-    <div class="intro__socials">
+    <div class="d-flex align-items-center justify-content-start intro__socials">
 
-     <a href="https://www.linkedin.com/in/darren-christian-t-8b59b9224">
+     <a class="d-flex align-items-center justify-content-center" href="https://www.linkedin.com/in/darren-christian-t-8b59b9224">
         <i  class="fa-brands fa-linkedin-in"></i>
      </a>
-     <a href="https://instagram.com/selftaught_tj?igshid=YmMyMTA2M2Y=">
+     <a class="d-flex align-items-center justify-content-center"  href="https://instagram.com/selftaught_tj?igshid=YmMyMTA2M2Y=">
         <i class="fa-brands fa-instagram"></i>
       </a>
-     <a href="https://www.facebook.com/profile.php?id=100080178886723">
+     <a class="d-flex align-items-center justify-content-center"  href="https://www.facebook.com/profile.php?id=100080178886723">
         <i class="fa-brands fa-facebook-f"></i>
      </a>
-     <a href="https://www.twitter.com/DarrenC43892953">
+     <a  class="d-flex align-items-center justify-content-center"  href="https://www.twitter.com/DarrenC43892953">
         <i class="fa-brands fa-twitter"></i>
      </a>
         
@@ -109,14 +109,16 @@
                  </div>
 
          <!-- Card -->
-                 <div class="intro-card">
-  <img src="assets/pexels-pixabay-220453.jpg" alt="My face">
-  <strong>Darren Christian</strong>
-  <p>Fullstack Developer</p>
+                 <div class="d-inline-flex flex-column intro-card">
+                      <img src="assets/pexels-pixabay-220453.jpg" alt="My face">
+                      <strong>Darren Christian</strong>
+                      <p>Fullstack Developer</p>
                  </div>
 
           </div>
     </section>
+
+
 
     <!-- My Project -->
     <section class="project-section">
@@ -131,7 +133,7 @@
 
                 <!-- Start Item -->
                 <div class="col">
-                  <div class="card" style="width: 336px;">
+                  <div class="d-flex flex-column justify-content-between card" style="width: 336px;">
 
                     <!-- Image -->
                     <img src="./assets/pexels-pixabay-220453.jpg" class="card-img-top" style="height:200px;object-fit:cover" alt="...">
@@ -140,22 +142,22 @@
                     <div class="card-body">
                          
                       <!-- Upper -->
-                      <div class="upper-project" >
+                      <div class="d-flex flex-column upper-project" >
                         <span class="project-title">My project</span>
                         <p class="project-duration">Durasi:5 bulan</p>
                         <p class="project-des">Ini adalah projek pertama saya</p>
                       </div>
                 
                     <!-- Lower -->
-                       <div class="lower-project" >
-                           <div class="project-logos" >
-                                <img src="images/react.png" width="40px">
-                                <img src="images/nodejs.svg" width="40px">
+                       <div class="d-flex flex-column lower-project" >
+                           <div class="d-flex flex-row align-items-center project-logos" >
+                                <img src="./assets/react.png" width="40px">
+                                <img src="./assets/nodejs.svg" width="40px">
                                 <img class="next-js" src="./assets/nextjs.webp" width="40px">
                                 <img  class="ts" src="./assets/typescript_original_logo_icon_146317.png" width="24px" >
                             </div>
                      
-                        <div class="project-buttons" >
+                        <div class="d-flex project-buttons" >
                              <button class="edit-btn">Edit</button>
                              <button class="delete-btn">Delete</button>
                         </div>
@@ -168,46 +170,8 @@
                 <!-- End Item -->
 
                 <!-- Start Item -->
-                    <div class="col">
-                      <div class="card" style="width: 336px;">
-    
-                        <!-- Image -->
-                        <img src="./assets/pexels-pixabay-220453.jpg" class="card-img-top" style="height:200px;object-fit:cover" alt="...">
-    
-                        <!-- Body -->
-                        <div class="card-body">
-                             
-                          <!-- Upper -->
-                          <div class="upper-project" >
-                            <span class="project-title">My project</span>
-                            <p class="project-duration">Durasi:5 bulan</p>
-                            <p class="project-des">Ini adalah projek pertama saya</p>
-                          </div>
-                    
-                        <!-- Lower -->
-                           <div class="lower-project" >
-                               <div class="project-logos" >
-                                    <img src="images/react.png" width="40px">
-                                    <img src="images/nodejs.svg" width="40px">
-                                    <img class="next-js" src="./assets/nextjs.webp" width="40px">
-                                    <img  class="ts" src="./assets/typescript_original_logo_icon_146317.png" width="24px" >
-                                </div>
-                         
-                            <div class="project-buttons" >
-                                 <button class="edit-btn">Edit</button>
-                                 <button class="delete-btn">Delete</button>
-                            </div>
-                        </div>
-    
-                        </div>
-    
-                      </div>
-                    </div>
-                <!-- End Item -->
-
-                 <!-- Start Item -->
                 <div class="col">
-                  <div class="card" style="width: 336px;">
+                  <div class="d-flex flex-column justify-content-between card" style="width: 336px;">
 
                     <!-- Image -->
                     <img src="./assets/pexels-pixabay-220453.jpg" class="card-img-top" style="height:200px;object-fit:cover" alt="...">
@@ -216,22 +180,60 @@
                     <div class="card-body">
                          
                       <!-- Upper -->
-                      <div class="upper-project" >
+                      <div class="d-flex flex-column upper-project" >
                         <span class="project-title">My project</span>
                         <p class="project-duration">Durasi:5 bulan</p>
                         <p class="project-des">Ini adalah projek pertama saya</p>
                       </div>
                 
                     <!-- Lower -->
-                       <div class="lower-project" >
-                           <div class="project-logos" >
-                                <img src="images/react.png" width="40px">
-                                <img src="images/nodejs.svg" width="40px">
+                       <div class="d-flex flex-column lower-project" >
+                           <div class="d-flex flex-row align-items-center project-logos" >
+                                <img src="./assets/react.png" width="40px">
+                                <img src="./assets/nodejs.svg" width="40px">
                                 <img class="next-js" src="./assets/nextjs.webp" width="40px">
                                 <img  class="ts" src="./assets/typescript_original_logo_icon_146317.png" width="24px" >
                             </div>
                      
-                        <div class="project-buttons" >
+                        <div class="d-flex project-buttons" >
+                             <button class="edit-btn">Edit</button>
+                             <button class="delete-btn">Delete</button>
+                        </div>
+                    </div>
+
+                    </div>
+
+                  </div>
+                </div>
+                <!-- End Item -->
+
+                 <!-- Start Item -->
+                 <div class="col">
+                  <div class="d-flex flex-column justify-content-between card" style="width: 336px;">
+
+                    <!-- Image -->
+                    <img src="./assets/pexels-pixabay-220453.jpg" class="card-img-top" style="height:200px;object-fit:cover" alt="...">
+
+                    <!-- Body -->
+                    <div class="card-body">
+                         
+                      <!-- Upper -->
+                      <div class="d-flex flex-column upper-project" >
+                        <span class="project-title">My project</span>
+                        <p class="project-duration">Durasi:5 bulan</p>
+                        <p class="project-des">Ini adalah projek pertama saya</p>
+                      </div>
+                
+                    <!-- Lower -->
+                       <div class="d-flex flex-column lower-project" >
+                           <div class="d-flex flex-row align-items-center project-logos" >
+                                <img src="./assets/react.png" width="40px">
+                                <img src="./assets/nodejs.svg" width="40px">
+                                <img class="next-js" src="./assets/nextjs.webp" width="40px">
+                                <img  class="ts" src="./assets/typescript_original_logo_icon_146317.png" width="24px" >
+                            </div>
+                     
+                        <div class="d-flex project-buttons" >
                              <button class="edit-btn">Edit</button>
                              <button class="delete-btn">Delete</button>
                         </div>

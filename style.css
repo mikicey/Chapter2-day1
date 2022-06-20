@@ -19,8 +19,6 @@ section{
 .intro{
     border-radius: 8px;
 
-    display: flex;
-
     margin: 0 auto;
     padding: 48px;
 
@@ -55,7 +53,7 @@ section{
 
 .contact-btn{
 
-    cursor: pointer;
+   cursor: pointer;
    display: inline-block;
    text-decoration: none;
 
@@ -76,15 +74,9 @@ section{
 
 
 .download-btn{
-      
       cursor: pointer;
-
-      display: inline-flex;
-      align-items: center;
-
       font-size: 18px;
       color: black;
-      
 }
 
 .download-btn img {
@@ -97,17 +89,9 @@ section{
 .intro__socials{
     margin: 0 auto;
     margin-bottom: 48px;
-
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
 }
 
 .intro__socials a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
     width: 32px;
     height: 32px;
     padding: 4px 4px;
@@ -129,11 +113,8 @@ section{
 .intro-card{
     overflow: hidden;
     box-shadow: 0px 0px 64px rgb(215, 215, 215);
-
     width: 400px;
-    display: inline-flex;
-    flex-direction: column;
-
+  
     margin: 0 auto;
     border-radius: 12px;
 }
@@ -177,23 +158,9 @@ section{
     margin: 0 auto;
 
     text-decoration: none;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
     
 }
 
-.upper-project {
-    display: flex;
-    flex-direction: column;
-}
-
-.lower-project{
-    display: flex;
-    flex-direction: column;
-}
 
 .card .upper-project > img{
     border-radius: 12px;
@@ -222,9 +189,6 @@ section{
 }
 
 .project-logos{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     margin: 24px 0;
 }
 
@@ -237,9 +201,6 @@ section{
     margin-right: 16px;
 }
 
-.project-buttons{
- display: flex;
-}
 
 .project-buttons > button{
    position: relative;
@@ -259,40 +220,6 @@ section{
     margin-right: 4px;
  }
 
-/* .project-buttons > button:disabled{
-    background-color: rgba(123, 123, 123, 0.429);
-    cursor:not-allowed;
-}
-
-.project-buttons > button:disabled::after{
-    position: absolute;
-    content: "Both buttons are disabled, to enable it , cancel or update the project which is still on editing mode ( At the form on top of the page )";
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 200%;
-
-    font-size: 10px;
-    color: white;
-    background-color: black;
-    text-align: start;
-    padding: 8px 8px;
-    border: 1px solid;
-    border-radius: .4rem;
-
-    overflow: hidden;
-    opacity: 0;
-    visibility: hidden;
-    transition: 150ms ease;
-}
-
-.project-buttons > button:disabled:hover::after{
-    visibility: visible;
-    opacity: 1; */
-/* } */
-
-
-
 
 
 /* 2. ADD PROJECT PAGE */
@@ -303,9 +230,6 @@ section{
 }
 
 .addproject-section form{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
     width: 600px;
 }
 
@@ -358,9 +282,6 @@ section{
 }
 
 .contact-section form{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
   width: 600px;
 }
 
