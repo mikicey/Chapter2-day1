@@ -29,6 +29,7 @@ section{
 .intro-main{
     flex: 2;
     margin-right: 48px;
+    flex-wrap: wrap;
 }
         /* left */
 /* TITLE AND DES  */
@@ -111,6 +112,7 @@ section{
 
 /*  CARD  */
 .intro-card{
+    flex-wrap: wrap;
     overflow: hidden;
     box-shadow: 0px 0px 64px rgb(215, 215, 215);
     width: 400px;
